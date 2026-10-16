@@ -1,27 +1,66 @@
-💻 LIFE.exe
+# 💻 LIFE.EXE — System-Level Habit Operating System
 
-Run your habits. Upgrade your life.
+> **Run your habits. Upgrade your life.**  
+> A cyber-aesthetic, privacy-first, zero-telemetry habit tracker built to run directly in any web browser.
 
- About the Project
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PuneetkumarHegde/HABITTRACKER)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Zero Backend](https://img.shields.io/badge/backend-zero--telemetry-ff3cac.svg)
 
-LIFE.exe is a habit tracking application designed to help individuals build consistency, improve discipline, and maintain productive daily routines. It approaches life from a system-oriented perspective, where habits are treated as executable actions that directly influence long-term outcomes. By focusing on small, repeatable behaviors, the application encourages users to develop a structured and goal-driven lifestyle.
+---
 
- Features
-  Create and manage daily habits
-  Track progress on a day-to-day basis
-  Maintain streaks to build consistency
-  Monitor completion rates and performance
-  Organize routines efficiently
-  How It Works
+## ⚡ Live Demo & Hosting
 
-Users begin by defining habits such as studying, exercising, or maintaining a sleep schedule. Each day, they mark whether the habit was completed. The system records this data and generates insights such as streak counts and completion percentages. Over time, users can observe patterns in their behavior and make improvements. The application emphasizes consistency over perfection, reinforcing the idea that small daily actions lead to significant long-term results.
+You can deploy this project to **Vercel** in under 60 seconds with **zero configuration**:
 
-Concept
+### Option 1: Deploy with 1 Click
+Click the **Deploy with Vercel** button above or link your GitHub repository directly to [Vercel](https://vercel.com).
 
-The core idea behind LIFE.exe is simple:
+### Option 2: Step-by-Step Vercel Deployment
+1. Go to [vercel.com](https://vercel.com) and log in with your GitHub account.
+2. Click **"Add New..."** → **"Project"**.
+3. Select `PuneetkumarHegde/HABITTRACKER`.
+4. Keep the default settings (**Framework Preset: Other**, Root Directory: `./`).
+5. Click **"Deploy"**.
+6. Your habit tracker will instantly be live at `https://habittracker.vercel.app` (or custom domain).
 
-Habits act as inputs
-Daily execution represents processing
-Results are the outputs
+---
 
-This structured approach allows users to visualize personal growth in a logical and measurable way, similar to how a program executes instructions.
+## 🚀 Key Features
+
+* **⚡ Matrix Habit Tracking**: Track all your daily routines across an intuitive 31-day monthly grid.
+* **📌 Sticky Habit Headers**: Task names remain locked on screen as you scroll across the month on both mobile and desktop.
+* **🔥 True Streak Engine**:
+  * Tracks your **Active Streak** without resetting in the morning before you log your routine.
+  * Preserves your **All-Time Best Streak** across months and years.
+* **📈 HiDPI Dynamic Trajectory Chart**: Real-time canvas curve showing daily completion trajectory with 30-day moving average.
+* **📝 Granular Multi-Day Notes**: Add notes, reflections, or metrics to any individual day or habit (right-click or click the note icon).
+* **⭐ Daily Reflection & Ratings**: Log your end-of-day satisfaction (1–5 stars) and review past reflections by date.
+* **⚠ Special Days & Events**: Mark exam days, hackathons, holidays, or milestones with custom color-coded indicators.
+* **⚙ Curated Starter Presets**: Jumpstart with curated routines (Core Productivity, Health & Vitality, Full Stack Life, or Blank Slate).
+* **🔒 100% Client-Side Privacy**: All data is stored in your browser's `localStorage`. No accounts, no servers, no tracking.
+* **💾 Data Portability**: Export your full database to a clean JSON file anytime and restore it on any device.
+
+---
+
+## 🛠 Local Development
+
+To run the application locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/PuneetkumarHegde/HABITTRACKER.git
+
+# Navigate into the project directory
+cd HABITTRACKER
+
+# Open index.html in your browser, or start a local server
+npx serve .
+```
+
+---
+
+## 📄 License
+
+Open source under the [MIT License](LICENSE).
