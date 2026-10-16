@@ -1,0 +1,19 @@
+{
+  "name": "life-exe-habittracker",
+  "version": "2.0.0",
+  "description": "System-Level Habit Operating System",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "habit-tracker",
+    "productivity",
+    "cyberpunk",
+    "localstorage",
+    "privacy-first"
+  ],
+  "author": "Puneetkumar Hegde",
+  "license": "MIT"
+}
